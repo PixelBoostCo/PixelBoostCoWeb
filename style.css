@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    background-color: rgb(69, 37, 61);
+}
+
+.header{
+    width: 100%;
+    height: 10dvh;
+    min-height: 70px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.INFO-TO-DISCORD{
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: default;
+}
+
+#LOGO-LEFT-HEADER{
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    cursor: default;
+    text-shadow: rgb(255, 69, 193) 0px 0 15px;
+}
+#LOGO-PICTURE{
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#DISCORD-BUTTON{
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 800;
+    color: white;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.250);
+    border: none;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 110%;
+    animation-name: AnimForButtonDiscordBack;
+    animation-duration: 0.3s;
+    font-size: 140%;
+}
+#DISCORD-BUTTON:hover{
+    font-size: 140%;
+    scale: 110%;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    height: 50px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.250);
+    border: none;
+    width: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    animation-name: AnimForButtonDiscord;
+    animation-duration: 0.3s;
+}
+@keyframes AnimForButtonDiscord {
+    from{
+        scale: 100%;
+    }
+    to{
+        scale: 110%;
+    }
+}
+@keyframes AnimForButtonDiscordBack {
+    from{
+        scale: 110%;
+    }
+    to{
+        scale: 100%;
+    }
+}
+
+@media (max-width: 870px){
+    .INFO-TO-DISCORD{
+        scale: 0%;
+        font-family: "Sour Gummy", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 0px;
+    }
+}
+@media (max-width: 480px){
+    #LOGO-PICTURE{
+        scale: 0%;
+    }
+    #vhgdkfgvdsujifvbdj{
+        width: 0px;
+    }
+    .header{
+        width: 100%;
+        height: 20dvh;
+        min-height: 200px;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        flex-direction: column;
+    }
+    .header-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+    #BUTTON-DIV{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .INFO-DIV{
+        height: 0px;
+    }
+}
+@media (max-width: 250px){
+    .MID{
+        float: left;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Sour Gummy", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: white;
+        font-size: 90%;
+    }
+}
+@media (max-width: 230px){
+    .MID{
+        float: left;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Sour Gummy", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: white;
+        font-size: 80%;
+    }
+}
+.MID{
+    float: left;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    letter-spacing: 5px;
+}
+.MID2{
+    float: left;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#MID3{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
